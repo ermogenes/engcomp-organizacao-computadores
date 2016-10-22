@@ -24,10 +24,11 @@ sw	$v0, 16($0)
 add	$v0, $0, 0
 
 ### Exercicio b) equivalente a f = g + (h + 5) em C
-lw	$v1,  4($0)		# lê g
+lw	$v1,  	4($0)		# lê g
 add	$v0,	$v0,	$v1	# f = f + g
-lw	$v1,  8($0)		# lê h
+lw	$v1,  	8($0)		# lê h
 addi	$v1,	$v1,	5	# h = h + 5
 add	$v0,	$v0,	$v1	# f = f + h
+sw	$v0,	0($0)		# grava resultado em f
 
 # Resultado = 10

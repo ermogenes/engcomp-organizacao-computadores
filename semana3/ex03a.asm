@@ -32,5 +32,6 @@ lw	$v1, 12($0)		# lê i
 add	$v0,	$v0,	$v1	# f = f + i
 lw	$v1, 16($0)		# lê j
 add	$v0,	$v0,	$v1	# f = f + j
+sw	$v0,	0($0)		# grava resultado em f
 
 # Resultado = 14
