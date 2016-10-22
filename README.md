@@ -3,6 +3,7 @@ Meus Arquivos relativos à disciplina Organização de Computadores do curso de 
 
 ## Semana 3
 * Exercício 2
+* Exercício 3, itens a e b
 
 ## Créditos
 
